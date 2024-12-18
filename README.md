@@ -10,7 +10,7 @@ A deep learning system that identifies **who is speaking** from a 1-second audio
 
 Trained and evaluated on the [Speaker Recognition Dataset](https://www.kaggle.com/datasets/kongaevans/speaker-recognition-dataset) (Kaggle) — 5 well-known public speakers + background noise.
 
-**🔗 Live demo:** _add your Streamlit Community Cloud link here once deployed (see [Deployment](#try-it-interactively) below)_
+**🔗 Live demo:** [speaker-recognition-system.streamlit.app](https://speaker-recognition-system.streamlit.app/)
 
 ## Contents
 - [Results](#results)
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Get the dataset
-Download the [Speaker Recognition Dataset](https://www.kaggle.com/datasets/kongaevans/speaker-recognition-dataset) from Kaggle and extract it so that `16000_pcm_speeches/` sits at the project root (next to `src/`).
+Download the dataset (see [Dataset](#dataset) below for the link) and extract it so that `16000_pcm_speeches/` sits at the project root (next to `src/`).
 
 ### 3. Train
 ```bash
@@ -141,7 +141,3 @@ Audio files must be 1-second, 16kHz, mono `.wav` clips (the same format as the t
 ## License
 
 This project is licensed under the [MIT License](LICENSE) — free to use, modify, and share.
-# Read 
-# Final 
-# Read 
-# Final 
