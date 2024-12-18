@@ -40,3 +40,4 @@ LEARNING_RATE = 1e-3
 EARLY_STOPPING_PATIENCE = 6
 # Config 
 # Fix 
+# Config 
