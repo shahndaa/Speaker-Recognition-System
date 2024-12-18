@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# Dataset is large and publicly downloadable from Kaggle — don't commit it
+16000_pcm_speeches/
+
+# OS/editor junk
+.DS_Store
+.vscode/
+# Ignore 
