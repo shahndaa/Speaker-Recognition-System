@@ -62,17 +62,16 @@ st.write(
 )
 
 st.subheader("Try it")
-tab_upload, tab_samples = st.tabs(["Upload your own .wav", "Try a sample clip"])
+mode = st.radio("Choose input", ["Upload your own .wav", "Try a sample clip"], horizontal=True)
 
 audio_bytes = None
 
-with tab_upload:
+if mode == "Upload your own .wav":
     uploaded = st.file_uploader("Upload a 16kHz mono .wav clip (~1 second)", type=["wav"])
     if uploaded is not None:
         audio_bytes = uploaded.read()
         st.audio(audio_bytes, format="audio/wav")
-
-with tab_samples:
+else:
     sample_files = sorted(glob.glob(os.path.join("assets", "samples", "*.wav")))
     if sample_files:
         labels = [os.path.basename(f).replace("_sample.wav", "").replace("_", " ") for f in sample_files]

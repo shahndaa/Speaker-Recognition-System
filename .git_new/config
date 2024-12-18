@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	ignorecase = true
+	logallrefupdates = true
+	worktree = G:/Speaker-Recognition-System
+[user]
+	name = shahndaa
+	email = shahndaelmasry60@gmail.com
+[remote "origin"]
+	url = https://github.com/shahndaa/Speaker-Recognition-System.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
